@@ -14,11 +14,7 @@ const HomeScreen = () => (
 
     <View style={styles.textContainer}>
       <Text style={styles.content}>
-        Donut introduces the flair and relatability of pop culture to a seemingly boring, 
-        traditional investment culture. Their platform is aimed at everyone who wants to better 
-        understand the complicated market of digital dough and blockchain technologies. From baking 
-        bitcoins to filling cremes de crypto, their fun approach to digital asset portfolios 
-        makes investing your hard earned income a lot easier.
+        Coinbase API
       </Text>
     </View>
   </View>

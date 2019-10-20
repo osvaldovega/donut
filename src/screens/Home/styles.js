@@ -1,4 +1,5 @@
 import { StyleSheet } from 'react-native';
+import Colors from '../../constants/Colors';
 
 const styles = StyleSheet.create({
   wrapper: {
@@ -6,8 +7,8 @@ const styles = StyleSheet.create({
     flexDirection: 'column',
     justifyContent: 'flex-start',
     alignItems: 'center',
-    backgroundColor: '#F4C3C2',
-    color: '#fff',
+    backgroundColor: Colors.screenBackground,
+    color: Colors.white,
   },
   imageContainer: {
     width: '100%',
@@ -33,7 +34,8 @@ const styles = StyleSheet.create({
     width: '100%',
     padding: 30,
     textAlign: 'justify',
-    color: '#2d3436',
+    color: Colors.prestigeBlue,
+    fontFamily: 'montserrat',
   }
 });
 

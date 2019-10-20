@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import {Text, SafeAreaView, FlatList, ScrollView } from 'react-native';
+import Loader from '../../components/Loader';
 import CardItem from '../../components/CardItem';
 import api from '../../services/coinbase/api';
 import styles from './styles';
 
-const ProductsScreen = () => {
+const ProductsScreen = ({ navigation }) => {
   const [prodcuts, setProducts] = useState({ data: [], error: false })
 
   useEffect(() => {
@@ -21,18 +22,21 @@ const ProductsScreen = () => {
 
   return (
     <SafeAreaView style={styles.safeContainer}>
-      <ScrollView style={styles.wrapper}>
+      <ScrollView style={styles.wrapper} contentContainerStyle={styles.wrapper}>
         {
           prodcuts.data.length && !prodcuts.error
           ? (
             <FlatList
               data={prodcuts.data}
-              renderItem={({ item }) => <CardItem {...item} />}
+              renderItem={({ item }) => (
+                <CardItem {...item} onPressFn={() => navigation.navigate('ProductDetails', { itemId: item.id })} />
+              )}
               keyExtractor={item => item.id}
-              contentContainerStyle = {{ width: '100%',  }}
+              numColumns={2}
+              columnWrapperStyle={styles.flatListRow}
             />
           )
-          : <Text style={styles.item}>Loading</Text>
+          : <Loader />
         }
       </ScrollView>
     </SafeAreaView>

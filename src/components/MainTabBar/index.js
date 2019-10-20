@@ -6,6 +6,7 @@ import TabMenuItems from '../../constants/TabMenuItems';
 import Icon from '../Icon';
 import HomeScreen from '../../screens/Home';
 import ProductsScreen from '../../screens/Products';
+import ProductDetailsScreen from '../../screens/ProductDetails';
 
 const config = Platform.select({
   web: { headerMode: 'screen' },
@@ -50,6 +51,7 @@ const HomeStack = createStackNavigator(
 const ProductsStack = createStackNavigator(
   {
     Products: ProductsScreen,
+    ProductDetails: ProductDetailsScreen,
   },
   {
     ...config,
