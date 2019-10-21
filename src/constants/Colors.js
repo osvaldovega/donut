@@ -17,4 +17,7 @@ export default {
   antiFlashWhite: '#f1f2f6',
   clearChill: '#1e90ff',
   goldenSand: '#eccc68',
+  picoVoid: '#192a56',
+  skirretGreen: '#44bd32',
+  pink: '#ff7675',
 };

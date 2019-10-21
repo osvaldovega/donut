@@ -1,27 +1,23 @@
 import { StyleSheet } from 'react-native';
-import Colors from '../../constants/Colors';
+import Colors from '../../../constants/Colors';
 
 const styles = StyleSheet.create({
   wrapper: {
-    flex: 1,
     width: '100%',
     height: '100%',
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: Colors.screenBackground,
+    flex: 1,
   },
-  animationContainer: {
-    width: 100,
-    height: 100,
-    borderRadius: 50,
-    overflow: 'hidden',
+  content: {
+    fontSize: 20,
+    color: Colors.pink,
+    fontFamily: 'montserrat',
+    fontWeight: '600',
+    padding: 10,
   },
-  animation: {
-    width: '100%',
-    height: '100%',
-  }
 });
 
 export default styles;

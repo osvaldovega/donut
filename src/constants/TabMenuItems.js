@@ -6,7 +6,7 @@ export default {
   },
 
   products: {
-    labelName: 'Products',
+    labelName: 'Market',
     iosIcon: 'ios-briefcase',
     androidIcon: 'md-briefcase',
   },

@@ -5,7 +5,7 @@ import styles from './styles';
 const Loader = () => (
   <View style={styles.wrapper}>
     <View style={styles.animationContainer}>
-      <Image source={require('../../../assets/images/loader.gif')} style={styles.animation} />
+      <Image source={require('../../../../assets/images/loader.gif')} style={styles.animation} />
     </View>
   </View>
 );

@@ -1,5 +1,5 @@
 import { StyleSheet } from 'react-native';
-import Colors from '../../constants/Colors';
+import Colors from '../../../constants/Colors';
 
 const styles = StyleSheet.create({
   safeContainer: {
@@ -16,6 +16,8 @@ const styles = StyleSheet.create({
     height: '100%',
     display: 'flex',
     backgroundColor: Colors.screenBackground,
+    paddingLeft: 5,
+    paddingRight: 5,
   },
   item: {
     color: Colors.white,

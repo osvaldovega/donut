@@ -1,8 +1,8 @@
 import React from 'react';
 import { Platform } from 'react-native';
 import { createStackNavigator, createBottomTabNavigator } from 'react-navigation';
-import Systems from '../../constants/OperativeSystems';
-import TabMenuItems from '../../constants/TabMenuItems';
+import Systems from '../../../constants/OperativeSystems';
+import TabMenuItems from '../../../constants/TabMenuItems';
 import Icon from '../Icon';
 import HomeScreen from '../../screens/Home';
 import ProductsScreen from '../../screens/Products';
@@ -48,10 +48,20 @@ const HomeStack = createStackNavigator(
 // ============================================= //
 //                    PRODUCTS 
 // ============================================= //
-const ProductsStack = createStackNavigator(
+const MarketInformationStack = createStackNavigator(
   {
-    Products: ProductsScreen,
-    ProductDetails: ProductDetailsScreen,
+    MarketInformation: {
+      screen: ProductsScreen,
+      navigationOptions: {
+        title: 'Market Information',
+      },
+    },
+    MarketInformationDetails: {
+      screen: ProductDetailsScreen,
+      navigationOptions: {
+        title: '24hr Stats',
+      },
+    },
   },
   {
     ...config,
@@ -71,7 +81,7 @@ const ProductsStack = createStackNavigator(
 const tabNavigator = createBottomTabNavigator(
   {
     HomeStack,
-    ProductsStack,
+    MarketInformationStack,
   },
   {
     tabBarOptions: {

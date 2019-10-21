@@ -8,13 +8,13 @@ const HomeScreen = () => (
       <Image
         style={styles.donutImage}
         resizeMode={'contain'}
-        source={require('../../../assets/images/donut.png')}
+        source={require('../../../../assets/images/donut.png')}
       />
     </View>
 
     <View style={styles.textContainer}>
       <Text style={styles.content}>
-        Coinbase API
+        This is a simple app, to check the Coinbase Market Information.
       </Text>
     </View>
   </View>

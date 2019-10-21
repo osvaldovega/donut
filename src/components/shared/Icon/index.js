@@ -1,6 +1,6 @@
 import React from 'react';
 import { Ionicons } from '@expo/vector-icons';
-import Colors from '../../constants/Colors';
+import Colors from '../../../constants/Colors';
 
 const Icon = ({ name, size, style, isFocus }) => {
   return (

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Platform, StatusBar, StyleSheet, View } from 'react-native';
 import AppNavigator from './navigation/AppNavigator';
-import AppLoadingInit from './components/AppLoadingInit';
+import AppLoadingInit from './components/shared/AppLoadingInit';
 
 const Main = (props) => {
   const [isLoadingComplete, setLoadingComplete] = useState(false);
