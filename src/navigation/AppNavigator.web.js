@@ -1,6 +1,6 @@
 import { createBrowserApp } from '@react-navigation/web';
 import { createSwitchNavigator } from 'react-navigation';
-import MainTabNavigator from '../components/shared/MainTabBar';
+import MainTabNavigator from '../components/MainTabBar';
 
 const switchNavigator = createSwitchNavigator({
   Main: MainTabNavigator,

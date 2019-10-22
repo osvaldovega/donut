@@ -1,12 +1,12 @@
 import React from 'react';
 import { Platform } from 'react-native';
 import { createStackNavigator, createBottomTabNavigator } from 'react-navigation';
-import Systems from '../../../constants/OperativeSystems';
-import TabMenuItems from '../../../constants/TabMenuItems';
-import Icon from '../Icon';
-import HomeScreen from '../../screens/Home';
-import ProductsScreen from '../../screens/Products';
-import ProductDetailsScreen from '../../screens/ProductDetails';
+import Systems from '../../constants/OperativeSystems';
+import TabMenuItems from '../../constants/TabMenuItems';
+import Icon from '../shared/Icon';
+import HomeScreen from '../screens/Home';
+import MarketInformtaionScreen from '../screens/MarketInformation';
+import MarketInformtaionDetailsScreen from '../screens/MarketInformtaionDetails';
 
 const config = Platform.select({
   web: { headerMode: 'screen' },
@@ -46,18 +46,18 @@ const HomeStack = createStackNavigator(
 
 
 // ============================================= //
-//                    PRODUCTS 
+//              MARKET INFORMATION 
 // ============================================= //
 const MarketInformationStack = createStackNavigator(
   {
     MarketInformation: {
-      screen: ProductsScreen,
+      screen: MarketInformtaionScreen,
       navigationOptions: {
         title: 'Market Information',
       },
     },
     MarketInformationDetails: {
-      screen: ProductDetailsScreen,
+      screen: MarketInformtaionDetailsScreen,
       navigationOptions: {
         title: '24hr Stats',
       },

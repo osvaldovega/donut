@@ -1,0 +1,768 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CardItem /> renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#192a56",
+      "borderColor": "#ffffff",
+      "borderRadius": 6,
+      "borderWidth": 1,
+      "display": "flex",
+      "flexDirection": "column",
+      "height": "auto",
+      "justifyContent": "flex-start",
+      "marginTop": 10,
+      "padding": 10,
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "height": 50,
+        "justifyContent": "center",
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "justifyContent": "center",
+            "width": "100%",
+          },
+          "",
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#44bd32",
+              "fontFamily": "montserrat",
+              "fontSize": 18,
+              "fontWeight": "600",
+            },
+            "",
+          ]
+        }
+      >
+        0
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "borderTopColor": "#f1f2f6",
+        "borderTopWidth": 1,
+        "display": "flex",
+        "flexDirection": "row",
+        "height": 55,
+        "justifyContent": "space-evenly",
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "column",
+          "justifyContent": "center",
+          "width": "50%",
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "center",
+              "width": "100%",
+            },
+            "",
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#eccc68",
+                "fontFamily": "montserrat",
+                "fontSize": 12,
+                "fontWeight": "600",
+                "textTransform": "uppercase",
+              },
+              "",
+            ]
+          }
+        >
+          Base
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "center",
+              "width": "100%",
+            },
+            "",
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#f1f2f6",
+                "fontFamily": "montserrat",
+                "fontSize": 12,
+                "fontWeight": "600",
+                "marginTop": 5,
+              },
+              "",
+            ]
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "column",
+            "justifyContent": "center",
+            "width": "50%",
+          },
+          Object {
+            "borderLeftColor": "#f1f2f6",
+            "borderLeftWidth": 1,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "center",
+              "width": "100%",
+            },
+            "",
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#eccc68",
+                "fontFamily": "montserrat",
+                "fontSize": 12,
+                "fontWeight": "600",
+                "textTransform": "uppercase",
+              },
+              "",
+            ]
+          }
+        >
+          Quote
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "center",
+              "width": "100%",
+            },
+            "",
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#f1f2f6",
+                "fontFamily": "montserrat",
+                "fontSize": 12,
+                "fontWeight": "600",
+                "marginTop": 5,
+              },
+              "",
+            ]
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "borderTopColor": "#f1f2f6",
+        "borderTopWidth": 1,
+        "display": "flex",
+        "flexDirection": "row",
+        "height": 55,
+        "justifyContent": "space-evenly",
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "column",
+          "justifyContent": "center",
+          "width": "50%",
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "center",
+              "width": "100%",
+            },
+            "",
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#eccc68",
+                "fontFamily": "montserrat",
+                "fontSize": 12,
+                "fontWeight": "600",
+                "textTransform": "uppercase",
+              },
+              "",
+            ]
+          }
+        >
+          Base Order Min
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "center",
+              "width": "100%",
+            },
+            "",
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#f1f2f6",
+                "fontFamily": "montserrat",
+                "fontSize": 12,
+                "fontWeight": "600",
+                "marginTop": 5,
+              },
+              "",
+            ]
+          }
+        >
+          0
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "column",
+            "justifyContent": "center",
+            "width": "50%",
+          },
+          Object {
+            "borderLeftColor": "#f1f2f6",
+            "borderLeftWidth": 1,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "center",
+              "width": "100%",
+            },
+            "",
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#eccc68",
+                "fontFamily": "montserrat",
+                "fontSize": 12,
+                "fontWeight": "600",
+                "textTransform": "uppercase",
+              },
+              "",
+            ]
+          }
+        >
+          Base Order Max
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "center",
+              "width": "100%",
+            },
+            "",
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#f1f2f6",
+                "fontFamily": "montserrat",
+                "fontSize": 12,
+                "fontWeight": "600",
+                "marginTop": 5,
+              },
+              "",
+            ]
+          }
+        >
+          0
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "borderTopColor": "#f1f2f6",
+        "borderTopWidth": 1,
+        "display": "flex",
+        "flexDirection": "row",
+        "height": 55,
+        "justifyContent": "space-evenly",
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "column",
+          "justifyContent": "center",
+          "width": "50%",
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "center",
+              "width": "100%",
+            },
+            "",
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#eccc68",
+                "fontFamily": "montserrat",
+                "fontSize": 12,
+                "fontWeight": "600",
+                "textTransform": "uppercase",
+              },
+              "",
+            ]
+          }
+        >
+          Quote Order Min
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "center",
+              "width": "100%",
+            },
+            "",
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#f1f2f6",
+                "fontFamily": "montserrat",
+                "fontSize": 12,
+                "fontWeight": "600",
+                "marginTop": 5,
+              },
+              "",
+            ]
+          }
+        >
+          0
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "column",
+            "justifyContent": "center",
+            "width": "50%",
+          },
+          Object {
+            "borderLeftColor": "#f1f2f6",
+            "borderLeftWidth": 1,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "center",
+              "width": "100%",
+            },
+            "",
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#eccc68",
+                "fontFamily": "montserrat",
+                "fontSize": 12,
+                "fontWeight": "600",
+                "textTransform": "uppercase",
+              },
+              "",
+            ]
+          }
+        >
+          Quote Order Max
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "center",
+              "width": "100%",
+            },
+            "",
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#f1f2f6",
+                "fontFamily": "montserrat",
+                "fontSize": 12,
+                "fontWeight": "600",
+                "marginTop": 5,
+              },
+              "",
+            ]
+          }
+        >
+          0
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "borderTopColor": "#f1f2f6",
+        "borderTopWidth": 1,
+        "display": "flex",
+        "flexDirection": "row",
+        "height": 55,
+        "justifyContent": "space-evenly",
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "column",
+          "justifyContent": "center",
+          "width": "50%",
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "center",
+              "width": "100%",
+            },
+            "",
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#eccc68",
+                "fontFamily": "montserrat",
+                "fontSize": 12,
+                "fontWeight": "600",
+                "textTransform": "uppercase",
+              },
+              "",
+            ]
+          }
+        >
+          Tik Size
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "center",
+              "width": "100%",
+            },
+            "",
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#f1f2f6",
+                "fontFamily": "montserrat",
+                "fontSize": 12,
+                "fontWeight": "600",
+                "marginTop": 5,
+              },
+              "",
+            ]
+          }
+        >
+          0
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "column",
+            "justifyContent": "center",
+            "width": "50%",
+          },
+          Object {
+            "borderLeftColor": "#f1f2f6",
+            "borderLeftWidth": 1,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "center",
+              "width": "100%",
+            },
+            "",
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#eccc68",
+                "fontFamily": "montserrat",
+                "fontSize": 12,
+                "fontWeight": "600",
+                "textTransform": "uppercase",
+              },
+              "",
+            ]
+          }
+        >
+          Status
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "justifyContent": "center",
+              "width": "100%",
+            },
+            "",
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#f1f2f6",
+                "fontFamily": "montserrat",
+                "fontSize": 12,
+                "fontWeight": "600",
+                "marginTop": 5,
+              },
+              "",
+            ]
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    accessible={true}
+    isTVSelectable={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "height": "auto",
+        "justifyContent": "center",
+        "marginBottom": 15,
+        "marginTop": 15,
+        "opacity": 1,
+        "width": "100%",
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#1e90ff",
+            "borderRadius": 9,
+            "color": "#f1f2f6",
+            "fontFamily": "montserrat",
+            "fontSize": 18,
+            "fontWeight": "600",
+            "overflow": "hidden",
+            "padding": 5,
+            "textAlign": "center",
+            "width": 200,
+          },
+          "",
+        ]
+      }
+    >
+      24hr Stats
+    </Text>
+  </View>
+</View>
+`;

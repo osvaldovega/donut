@@ -11,7 +11,7 @@ const TextContent = ({ content, textStyle, containerStyle }) => (
 TextContent.defaultProps = {
   containerStyle: '',
   textStyle: '',
-  title: '',
+  content: '',
 };
 
 export default TextContent;

@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TextContent /> renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "justifyContent": "center",
+        "width": "100%",
+      },
+      "",
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#f1f2f6",
+          "fontFamily": "montserrat",
+          "fontSize": 12,
+          "fontWeight": "600",
+          "marginTop": 5,
+        },
+        "",
+      ]
+    }
+  >
+    
+  </Text>
+</View>
+`;

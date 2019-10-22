@@ -15,7 +15,7 @@ const Icon = ({ name, size, style, isFocus }) => {
 
 Icon.defaultProps = {
   isFocus: false,
-  name: '',
+  name: 'ios-wallet',
   size: 26,
   style: '',
 };

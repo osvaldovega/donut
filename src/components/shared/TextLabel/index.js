@@ -11,7 +11,7 @@ const TextLabel = ({ content, textStyle, containerStyle }) => (
 TextLabel.defaultProps = {
   containerStyle: '',
   textStyle: '',
-  title: '',
+  content: '',
 };
 
 export default TextLabel;

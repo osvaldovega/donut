@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Platform, StatusBar, StyleSheet, View } from 'react-native';
 import AppNavigator from './navigation/AppNavigator';
 import AppLoadingInit from './components/shared/AppLoadingInit';
+import OS from './constants/OperativeSystems';
 
 const Main = (props) => {
   const [isLoadingComplete, setLoadingComplete] = useState(false);
@@ -13,7 +14,7 @@ const Main = (props) => {
   return (
     <View style={styles.wrapper}>
       {
-        Platform.OS === 'ios' && <StatusBar barStyle="default" />
+        Platform.OS === OS.IOS && <StatusBar barStyle="default" />
       }
       <AppNavigator />
     </View>

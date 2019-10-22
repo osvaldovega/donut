@@ -2,18 +2,18 @@ import axios from 'axios';
 
 const APi_URI = 'https://api.pro.coinbase.com';
 
-const getProducts = async () => {
+const getMarketInformation = async () => {
   try {
-    const response = await axios(`${APi_URI}/products`);
+    const response = await axios.get(`${APi_URI}/products`);
     if (response.status === 200) return response;
   } catch(error) {
     throw error;
   }
 };
 
-const getProductStats24Hrs = async (id) => {
+const getMarketInformationStats = async (id) => {
   try {
-    const response = await axios(`${APi_URI}/products/${id}/stats`);
+    const response = await axios.get(`${APi_URI}/products/${id}/stats`);
     if (response.status === 200) return response;
   } catch(error) {
     throw error;
@@ -21,6 +21,6 @@ const getProductStats24Hrs = async (id) => {
 };
 
 export default {
-  getProducts,
-  getProductStats24Hrs,
+  getMarketInformation,
+  getMarketInformationStats,
 };

@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Loader /> renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#F4C3C2",
+      "display": "flex",
+      "flex": 1,
+      "flexDirection": "column",
+      "height": "100%",
+      "justifyContent": "center",
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "borderRadius": 50,
+        "height": 100,
+        "overflow": "hidden",
+        "width": 100,
+      }
+    }
+  >
+    <Image
+      source={1}
+      style={
+        Object {
+          "height": "100%",
+          "width": "100%",
+        }
+      }
+    />
+  </View>
+</View>
+`;

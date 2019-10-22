@@ -20,7 +20,7 @@ const CardItem = ({
 }) => (
   <View style={styles.wrapper}>
     <View style={styles.titleContainer}>
-      <TextHeader title={id} />
+      <TextHeader content={id} />
     </View>
 
     <View style={styles.detailsContainer}>

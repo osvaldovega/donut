@@ -1,40 +1,24 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { SafeAreaView, FlatList, ScrollView } from 'react-native';
 import Loader from '../../shared/Loader';
 import CardItem from '../../shared/CardItem';
 import Error from '../../shared/Error';
-import api from '../../../services/coinbase/api';
+import useCoinbaseAPI from '../../hooks/useCoinbaseApi';
 import styles from './styles';
 
-const ProductsScreen = ({ navigation }) => {
-  const [prodcuts, setProducts] = useState({ data: [], error: false });
-  const [isLoading, setIsLoading] = useState(true);
-
-  const getCoinbaseProducts = async () => {
-    try {
-      const response = await api.getProducts();
-      setProducts({ data: response.data, error: false });
-      setIsLoading(false);
-    } catch (error) {
-      setProducts({ error: true, data: [] });
-      setIsLoading(false);
-    }
-  };
-
-  useEffect(() => {
-    getCoinbaseProducts();
-  }, []);
+const MarketInformtaionScreen = ({ navigation }) => {
+  const { data, isError, isLoading } = useCoinbaseAPI('getMarketInformation');
 
   return (
     <SafeAreaView style={styles.safeContainer}>
       <ScrollView style={styles.wrapper} contentContainerStyle={styles.wrapper}>
         { isLoading && <Loader /> }
-        { !isLoading && prodcuts.error && <Error /> }
+        { !isLoading && isError && <Error /> }
         {
-          prodcuts.data.length && !prodcuts.error
+          data.length && !isError
             ? (
               <FlatList
-                data={prodcuts.data}
+                data={data}
                 renderItem={({ item }) => (
                   <CardItem {...item} onPressFn={() => {
                     navigation.navigate('MarketInformationDetails', { itemId: item.id });
@@ -50,4 +34,4 @@ const ProductsScreen = ({ navigation }) => {
   );
 };
 
-export default ProductsScreen;
+export default MarketInformtaionScreen;

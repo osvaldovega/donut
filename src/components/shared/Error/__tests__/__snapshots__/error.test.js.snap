@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Error /> renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flex": 1,
+        "flexDirection": "column",
+        "height": "100%",
+        "justifyContent": "center",
+        "width": "100%",
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#ff7675",
+          "fontFamily": "montserrat",
+          "fontSize": 20,
+          "fontWeight": "600",
+          "padding": 10,
+        },
+      ]
+    }
+  >
+    We had a problem proccesing your request
+  </Text>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#ff7675",
+          "fontFamily": "montserrat",
+          "fontSize": 20,
+          "fontWeight": "600",
+          "padding": 10,
+        },
+      ]
+    }
+  >
+    Please check again later!!!
+  </Text>
+</View>
+`;
